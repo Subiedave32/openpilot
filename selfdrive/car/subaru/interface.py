@@ -30,7 +30,7 @@ class CarInterface(CarInterfaceBase):
     ret.enableCamera = True
 
     # experimental branch, dashcam only by default
-    ret.dashcamOnly = True
+    ret.dashcamOnly = False
 
     ret.steerRateCost = 0.7
     ret.steerLimitTimer = 0.4
